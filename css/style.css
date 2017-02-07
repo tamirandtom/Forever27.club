@@ -1,0 +1,277 @@
+/*
+CSS file created with:Instantblueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+Project: 27
+File: css/style.css
+Last edited: December 20, 2015, 4:44 am
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900);
+
+/*.fbsharebutton{background-color:rgba(255,255,255,0.2);padding:8px;border-radius:2px;margin-top:5px;display:inline-block;}  
+#itemlist {margin-left:calc(40% - 800px);} */
+.FirstTitleMobile{display:none;}
+.FirstTitle{display:block; line-height:70px;}
+.spacer25 {width:15%; display:inline-block; text-align:center;}
+.infotext{display:inline;}
+.arw{display:none;font-size: 0em;margin-left: 0px;}
+#logopage {position:fixed; top:40px; left:54px; font-size:16px; font-weight:700; color:#fff;}
+a {text-decoration:none;color:#fff;}
+a:hover {color:rgba(255,255,255,0.6);}
+#playbutton{position:relative;top:-3px;margin-left:3px;}
+
+.underlinelink {line-height:20px;color:rgba(255,255,255,1);padding:5px;transition:all 0.1s ease-in;cursor:pointer;display:inline-block;border-bottom:2px solid #fff;}
+.underlinelink:hover {line-height:20px;color:rgba(255,255,255,1);padding:5px;transition:all 0.1s ease-in;cursor:pointer;display:inline-block;}
+
+
+.link {line-height:20px;color:rgba(255,255,255,0.9);padding:5px;transition:all 0.1s ease-in;cursor:pointer;display:inline-block;background-color:rgba(255,255,255,0.2);border-radius:2px;}
+.link:hover{color:rgba(255,255,255,1);background-color:rgba(255,255,255,0.5)}
+.link.ison {color:rgba(255,255,255,1);background-color:rgba(255,255,255,0.5)}
+.link.ison:hover {color:rgba(255,255,255,1);background-color:rgba(255,255,255,0.8)}
+#sortsection {position:fixed; bottom:44px;text-align:left;z-index:1000;font-size:16px;color:#fff; width:46%;height:26px;padding-left:53px;}
+.spacer25 .link {min-width:60px;}
+.subtitle{
+	display:inline-block;
+	transition:all 0.3s;
+	/* This project is dedi: */
+font-size: 27px;
+margin-top:10vh;
+padding:6px;
+font-weight:700;
+color: #FFFFFF;
+line-height: 33px;
+
+}
+.subtitle i{
+	/* This project is dedi: */
+position:relative;
+top:1px;
+}
+.uppertitlescontainer{font-size:16px;position:relative;top:-12px;font-weight:700;width:calc(46% - 10px);padding-right:10px;text-align:right;display:inline-block;}
+.uppertitles, .uppertitlesconst{font-size:16px;position:relative;top:-4px;font-weight:700;width:calc(46% - 10px);padding-right:10px;text-align:right;display:inline-block;}
+.dtltitle {display:none}
+.cotitle {display:none}
+
+#bototmlinks {font-size:16px; color:#fff;bottom:44px;position:fixed;left:46%;z-index:200;height:26px;}
+
+.inline-title {
+border-bottom:19px solid #000;
+display:inline;
+font-size: 81px;
+color: #000000;
+line-height: 81px;
+font-weight:700;
+}
+.titles{/* A: */
+	font-family: 'Merriweather', serif;
+
+padding-left:72px;
+padding-bottom:24px;
+}
+#info-box{/* Poet,rock musician &: */
+	position: fixed;
+z-index:999;
+display:inline-block;
+width:30%;
+
+font-family: 'Merriweather', serif;
+
+font-size: 22px;
+padding:27px;
+top:calc(44% - 50px);
+left:27px;
+color: #FFFFFF;
+line-height: 30px;
+}
+
+#spacer{height:70vh;}
+.isselected{color:#fff;}
+li{display:block;line-height:75px;font-size:52px;z-index:100;transition:all 0.3s;font-weight:700; }
+body {
+ background:#000;
+ color:#000;
+font-family: 'Merriweather', serif;
+ font-size: 72px;
+}
+#soundframe
+{
+opacity:1;
+position:fixed;
+z-index:-2;
+top:-25%;
+left:-25%;
+width:150%;
+height:150vh;
+}
+
+
+#imgdata
+{	
+background-size:cover;
+position:fixed;
+background-position:center;
+z-index:-3;
+top:0px;
+opacity:0;
+left:0px;
+width:100%;
+height:100vh;
+}
+
+
+.gradiantbottom{
+pointer-events: none;
+z-index:150;
+position:fixed;
+width:100%;
+height:45vh;
+bottom:0px;
+right:0px;
+
+}
+
+.gradiant0bottom{
+/* Rectangle 4: */
+background-image: linear-gradient(-180deg, rgba(245,197,206,0.00) 0%, #E994A0 91%);
+}
+
+.gradiant1bottom{
+
+background-image: linear-gradient(-180deg, rgba(245,197,206,0.00) 0%, #6EAAE5 91%);
+}
+
+.gradiant2bottom{
+/* Rectangle 4: */
+background-image: linear-gradient(-180deg, rgba(245,197,206,0.00) 0%, #7BD575 91%);
+}
+.gradiant3bottom{
+/* Rectangle 4: */
+background-image: linear-gradient(-180deg, rgba(245,197,206,0.00) 0%, #E8B16B 91%);
+}
+.gradiant4bottom{
+/* Rectangle 4: */
+background-image: linear-gradient(-180deg, rgba(112,112,112,0.00) 0%, #9070C6 91%);
+}
+
+
+.gradiant
+{	
+
+position:fixed;
+z-index:-1;
+top:0px;
+opacity:0;
+left:0px;
+width:100%;
+height:100vh;
+}
+/* gradient: */
+
+.gradiant0{
+/* Rectangle 54: */
+background-color: #E994A0;
+}
+
+.gradiant1{
+/* Rectangle 54: */
+background-color: #B0CEEB;
+}
+
+.gradiant2{
+/* q: */
+background-color:#B4EBB0;
+}
+.gradiant3{
+	/* q: */
+background-color:#EBD1B0;
+}
+.gradiant4{
+	/* q: */
+background-color:#AA88E3;
+}
+
+#button
+{
+	display:none;
+position:fixed;
+left:100px;
+top:100px;
+}
+#wrapper {
+ margin:0 auto;
+ width:960px; /*  Change to desired width :)  */
+}
+
+#header {
+}
+
+#nav {
+}
+
+#content {
+}
+
+.post {
+}
+
+.postmeta {
+}
+
+#footer {
+}
+
+@media screen and (max-width: 1110px) {
+
+
+
+#info-box{font-size:17px;line-height:25px;}
+li{display:block;line-height:70px;padding-left:27px;font-size:34px;font-weight:700;}
+.uppertitles, .uppertitlesconst{font-size:14px;position:relative;top:2px;font-weight:700;width:100%;}
+
+}
+
+#mobileheader{display:none;}
+#mobilepageheader{font-size:16px; line-height:23px; color:#EFB4BC; padding-top:16px; padding-left:14px;font-weight:700; }
+#mobileartist{font-size:27px; line-height:32px; color:#fff;padding-left:14px;padding-top:3px;width:45%;}
+
+
+@media only screen and (max-device-width: 750px), screen and (max-width: 750px) { 
+#spacer{height:35vh;}
+#videomobile{height:100%; width:50%; position:absolute; top:0px; right:0px;}
+#logopage{display:none;}
+#mobileheader{display:block;position:fixed;background-color:#000;width:100%;height:120px;}
+#bototmlinks{position:static; text-align:left;padding-top:40px;padding-left:14px;padding-bottom:50vh;}
+li{display:block;line-height:55px;font-size:16px; text-align:left;transition:all 0.4s;margin-top:2vh;padding-left:14px;}
+#info-box{/* Poet,rock musician &: */
+display:inline-block;;
+font-size: 14px;
+box-sizing:border-box;
+transition:all 1.5s;
+height:120px;
+background-color:#000;
+line-height:20px;
+padding:10px 10px;
+bottom:-120px;
+left:0px;
+right:auto;
+top:auto;
+transition:all 0.4s;
+position: fixed;
+z-index:999;
+width:100%;
+}
+.uppertitles, .uppertitlesconst{font-size:12px; width:100px;}
+.uppertitlescontainer{display:none;}
+.FirstTitle{display:none;}
+.FirstTitleMobile{display:block; line-height:28px;width:80%;}
+.isselected{transition:all 0.4s;}
+#sortsection{width:100%; bottom:13px; left:0px;padding-left:0px;display:none;}
+.spacer25 {width:24%;text-align:center;}
+.fblink{display:inline-block;position:absolute;top:40px; right:27px;height:20px;background-color:rgba(255,255,255,0.2);font-weight:700;color:#fff;}
+.infotext{display:inline-block;width:70%;}
+}
+
+.uppertitlesconst {color:rgba(0,0,0,0);}
+
+

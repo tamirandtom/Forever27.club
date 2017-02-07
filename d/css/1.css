@@ -1,0 +1,385 @@
+/*
+CSS file created with:Instantblueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+Project: 27
+File: css/style.css
+Last edited: December 20, 2015, 4:44 am
+*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*  Main  */
+#titleimage {height:500px;}
+#mobiletext{display:none;}
+
+a {text-decoration:none;color:#fff;}
+a:hover {color:rgba(255,255,255,0.6);}
+#playbutton{position:relative;top:-3px;margin-left:3px;}
+.link {color:rgba(255,255,255,1); line-height:27px;padding:0 13px; font-size:14px;cursor:pointer; display:inline-block; transition:all 0.2s;border:2px solid rgba(255,255,255,1); height:27px;}
+.link:hover{background-color:rgba(255,255,255,0.2);}
+.link.ison {color:#000;border-radius:2px;border:2px solid  rgba(255,255,255,1); background-color:#fff;}
+.dtltitle {display:none}
+.cotitle {display:none}
+#sortsection {position:fixed; bottom:27px;right:27px; text-align:right;z-index:1000;font-size:14px;color:#fff;}
+.subtitle{
+  display:inline-block;
+  transition:all 0.3s;
+  /* This project is dedi: */
+font-size: 27px;
+margin-top:10vh;
+padding:6px;
+font-weight:700;
+color: #FFFFFF;
+line-height: 33px;
+
+}
+.subtitle i{
+  /* This project is dedi: */
+position:relative;
+top:1px;
+}
+.fbshare{margin-top:10px;}
+.uppertitles, .uppertitlesconst{font-size:27px;position:relative;top:-24px;font-weight:700;}
+#bototmlinks {font-size:14px; color:#fff; margin-left:27px;line-height:27px;padding-bottom:27px;}
+#pagetitlediv{
+padding-left:27px;
+font-size: 112px;
+color: #fff;
+line-height: 112px;
+padding-top:30px;
+font-weight:700;
+height:80vh;
+}
+.inline-title {
+border-bottom:19px solid #000;
+display:inline;
+font-size: 81px;
+color: #000000;
+line-height: 81px;
+font-weight:700;
+}
+.titles{/* A: */
+font-family: 'Montserrat', sans-serif;
+padding-left:72px;
+padding-bottom:24px;
+}
+#info-box{/* Poet,rock musician &: */
+  position: fixed;
+z-index:999;
+display:inline-block;
+width:30%;
+min-width:480px;
+/* border: 4px solid #fff; */
+background-color:rgba(255,255,255,0.3);
+font-family: 'Montserrat', sans-serif;
+font-size: 27px;
+padding:27px;
+top:27px;
+right:27px;
+color: #FFFFFF;
+line-height: 32px;
+}
+
+#spacer{height:40vh;}
+.isselected{color:#fff;}
+#itemlist{z-index:100;}
+
+li{display:block;line-height:81px;padding-left:27px;padding-bottom:27px;font-size:81px;z-index:100;transition:all 0.3s;}
+body {
+ background:#000;
+ color:#000;
+font-family: 'Montserrat', sans-serif;
+ font-size: 72px;
+}
+#soundframe
+{
+opacity:1;
+position:fixed;
+z-index:-2;
+top:-25%;
+left:-25%;
+width:150%;
+height:150vh;
+}
+
+
+#imgdata
+{ 
+background-size:cover;
+position:fixed;
+background-position:center;
+z-index:-3;
+top:0px;
+opacity:0;
+left:0px;
+width:100%;
+height:100vh;
+}
+
+.gradiant
+{ 
+
+position:fixed;
+z-index:-1;
+top:0px;
+opacity:0;
+left:0px;
+width:100%;
+height:100vh;
+}
+/* gradient: */
+
+.gradiant0{
+pointer-events: none;
+
+background-image: linear-gradient(-134deg, #3023AE 0%, #C86DD7 100%);
+}
+
+.gradiant1{
+  pointer-events: none;
+
+background-image: linear-gradient(-134deg, #997BF6 0%, #6F0D7F 100%);
+}
+
+.gradiant2{
+  pointer-events: none;
+
+/* q: */
+background-image: linear-gradient(-134deg, #FFF690 0%, #F74F05 100%);
+}
+.gradiant3{pointer-events: none;
+
+  /* q: */
+background-image: linear-gradient(-134deg, #83C3F7 0%, #1B58E4 100%);
+}
+.gradiant4{pointer-events: none;
+
+  /* q: */
+background-image: linear-gradient(-134deg, #2AFDFF 0%, #197366 100%);
+}
+
+#button
+{
+  display:none;
+position:fixed;
+left:100px;
+top:100px;
+}
+#wrapper {
+ margin:0 auto;
+ width:960px; /*  Change to desired width :)  */
+}
+
+#header {
+}
+
+#nav {
+}
+
+#content {
+}
+
+.post {
+}
+
+.postmeta {
+}
+
+#footer {
+}
+#mobiletext {
+  display:none;
+
+}
+@media screen and (max-width: 1110px) {
+#mobiletext {
+  display:none;
+
+}
+
+#pagetitlediv{
+padding-left:27px;
+font-size: 68px;
+color: #fff;
+padding-top:59px;
+line-height:77px;
+height:70vh;
+}
+
+
+  .titles{/* A: */
+font-family: 'Montserrat', sans-serif;
+padding-left:54px;
+padding-bottom:54px;
+}
+.inline-title {
+border-bottom:9px solid #000;
+display:inline;
+font-size: 54px;
+color: #000000;
+line-height: 130px;
+font-weight:700;
+}
+li{display:block;line-height:70px;padding-left:27px;font-size:54px;font-weight:700;}
+.uppertitles, .uppertitlesconst{font-size:27px;position:relative;top:-11px;font-weight:700;}
+
+}
+
+@media screen and (max-width: 700px) {
+#sortsection {
+top:27px;
+width:100%;
+right:0px;
+height:15vh;
+text-align:center;
+}
+
+.subtitle{
+  /* This project is dedi: */
+width:calc(100% - 40px);
+font-size:44px;
+line-height:70px;
+text-align:center;
+padding-top:35px;
+}
+
+#pagetitlediv{
+text-align:center;
+padding-left:27px;
+padding-top:140px;
+text-align:center;
+font-size: 110px;
+color: #fff;
+line-height: 100px;
+height:60vh;
+}
+
+.titles{/* A: */
+font-family: 'Montserrat', sans-serif;
+padding-left:27px;
+padding-bottom:27px;
+}
+.inline-title {
+border-bottom:9px solid #000;
+display:inline;
+font-size: 54px;
+color: #000000;
+line-height: 54px;
+font-weight:700;
+}
+li{display:block;line-height:4.5vh;font-size:3.5vh; text-align:center;transition:all 0.4s;margin-top:2vh;}
+#info-box{/* Poet,rock musician &: */
+min-width:auto;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+padding:2vh 4.5vh;
+top:auto;
+right:auto;
+border:none;
+text-align:center;
+transition:all 0.4s;
+position: fixed;
+z-index:999;
+width:100%;
+background-color:rgba(255,255,255,0.9);
+border: 4px solid #fff;
+font-family: 'Montserrat', sans-serif;
+bottom:0px;
+color: #000;
+line-height: 4vh;
+}
+.isselected{transition:all 0.4s;}
+
+.uppertitles{font-size:10px;}
+#titleimage{height:50vh;}
+.fbshare {color:#000; border-color:#000;}
+.gradiant{z-index:-1;pointer-events:none;}
+#soundframe
+{
+z-index:-2;
+}
+}
+
+
+@media only screen and (max-device-width: 700px) {
+#sortsection {
+top:27px;
+width:100%;
+right:0px;
+height:15vh;
+text-align:center;
+}
+
+.subtitle{
+  /* This project is dedi: */
+width:calc(100% - 40px);
+font-size:44px;
+line-height:70px;
+text-align:center;
+padding-top:35px;
+}
+
+#pagetitlediv{
+text-align:center;
+padding-left:27px;
+padding-top:140px;
+text-align:center;
+font-size: 110px;
+color: #fff;
+line-height: 100px;
+height:60vh;
+}
+
+.titles{/* A: */
+font-family: 'Montserrat', sans-serif;
+padding-left:27px;
+padding-bottom:27px;
+}
+.inline-title {
+border-bottom:9px solid #000;
+display:inline;
+font-size: 54px;
+color: #000000;
+line-height: 54px;
+font-weight:700;
+}
+li{display:block;line-height:4.5vh;font-size:3.5vh; text-align:center;transition:all 0.4s;margin-top:2vh;}
+#info-box{/* Poet,rock musician &: */
+
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-size: 3vh;
+padding:2vh 4.5vh;
+top:auto;
+right:auto;
+text-align:center;
+transition:all 0.4s;
+position: fixed;
+z-index:999;
+width:100%;
+background-color:rgba(255,255,255,0.9);
+border: none;
+font-family: 'Montserrat', sans-serif;
+bottom:0px;
+color: #000;
+line-height: 4vh;
+}
+.link {color:rgba(255,255,255,1); line-height:55px;padding:0 13px; font-size:34px;cursor:pointer; display:inline-block; transition:all 0.2s;border:2px solid rgba(255,255,255,1); height:55px; margin-right:27px;}
+.link:hover{background-color:rgba(255,255,255,0.2);}
+.link.ison {color:#000;border-radius:2px;border:2px solid  rgba(255,255,255,1); background-color:#fff;}
+li {pointer-events:none}
+.uppertitles, .uppertitlesconst{font-size:0.7vh;position:relative;top:-9px;font-weight:700;}
+.isselected{transition:all 0.4s;}
+
+.uppertitles{font-size:10px;}
+#titleimage{height:50vh;}
+.fbshare {color:#000; border-color:#000;}
+.gradiant{z-index:-1;pointer-events:none;}
+#soundframe
+{
+z-index:1;
+}
+}
+
+.uppertitlesconst {color:rgba(0,0,0,0);}
+
+
