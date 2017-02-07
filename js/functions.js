@@ -181,12 +181,12 @@ function ChangePlayerMusic(val)
     {
     if (Currval != val)
       {
-      $("#soundframe").attr("src", "http://www.youtube.com/embed/"+ val +"rel=0&autoplay=1&loop=1");
+      $("#soundframe").attr("src", "https://www.youtube.com/embed/"+ val +"rel=0&autoplay=1&loop=1");
       Currval = val;
       currdiv.removeClass('isselected');
       }
     } else {
-      $("#videomobile").attr("src", "http://www.youtube.com/embed/"+ val +"rel=0&autoplay=1&loop=1");
+      $("#videomobile").attr("src", "https://www.youtube.com/embed/"+ val +"rel=0&autoplay=1&loop=1");
     }
 }
 
